@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beranda - SD Negeri 3 Banteran</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/gambar/logo.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/40363c613f.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="inter">
+    <!-- Navbar Section Start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+                <img src="assets/gambar/logo.png" alt="Logo" width="40" height="40" class="me-2">
+                <span class="text-primary">SDN</span>3 Banteran
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto fw-medium gap-1">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="visimisi.html">Visi & Misi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tentang Kami
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="kurikulum.html">Kurikulum</a></li>
+                            <li><a class="dropdown-item" href="guru.html">Guru</a></li>
+                            <li><a class="dropdown-item" href="pendaftaran.html">Pendaftaran</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary rounded-5 px-3" href="https://wa.me/6281234567890">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Section End -->
+
+    <main>
+        <!-- Hero Section Start -->
+        <section id="hero-section">
+            <div class="container mt-5">
+                <div class="d-flex flex-wrap">
+                    <div class="col-lg-6 align-self-center mx-auto">
+                        <h1 class="fw-bold poppins-bold"><span class="text-primary">SD Negeri</span> 3 Banteran</h1>
+                        <p class="poppins-regular mt-3 text-secondary">Mewujudkan generasi emas melalui pendidikan
+                            berkualitas, budi pekerti luhur, dan semangat juang bersama SDN 3 Banteran.</p>
+                            <div class="mt-5 d-flex gap-2">
+                                <a href="pendaftaran.html">
+                                    <button class="btn btn-primary rounded-5 px-4">Pendaftaran &#10095;</button>
+                                </a>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#videoSDN3Banteran"
+                                    class="btn btn-outline-primary rounded-5 px-4">Video &#9658;</button>
+                            </div>                            
+                        <div class="mt-5">
+                            <p class="fw-medium">Temukan kami di :
+                                <a class="text-black" href=""><i class="fa-brands fa-facebook ms-2"></i></a>
+                                <a class="text-black" target="_blank"
+                                    href="https://www.instagram.com/sdn3_banteran?igsh=MXU0MGxoa24wb2pwZQ=="><i
+                                        class="fa-brands fa-instagram ms-2"></i></a>
+                                <a class="text-black" href=""><i class="fa-brands fa-youtube ms-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 position-relative mx-auto">
+                        <div class="card-hero">
+                            <img src="assets/gambar/depan-sekolah.jpg" class="img-fluid" alt="" srcset="">
+                            <div class="card-quote-one fw-medium">
+                                <img src="assets/gambar/kihajardewantara.jpg" width="40" height="40" alt="">
+                                <figure>
+                                    <blockquote>
+                                        <span class="poppins-medium fw-bold">Dengan ilmu kita menuju kemuliaan.</span>
+                                    </blockquote>
+                                    <figcaption>— Ki Hajar Dewantara</figcaption>
+                                </figure>
+                            </div>
+                            <div class="card-quote-two fw-medium">
+                                <p class="poppins-medium-italic">" Belajar Itu Menyenangkan kuncinya jangan pernah
+                                    menyerah oleh apapun itu "</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Section End -->
+        <!-- Modal -->
+        <div class="modal fade" id="videoSDN3Banteran" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Video SDN 3 Banteran</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/QU9qNco21Lc?si=ysfpbR3rCkiRCFtG"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2 Start -->
+        <section id="section-2">
+            <div class="container mt-5">
+                <h1 class="poppins-bold text-center">Profil <span class="text-primary">SD Negeri 3</span> <br>Banteran
+                </h1>
+                <div class="d-flex flex-wrap mt-5 align-items-center">
+                    <!-- Carousel di sebelah kiri -->
+                    <div class="col-lg-6 mb-4">
+                        <div id="customCarousel" class="custom-carousel">
+                            <div class="custom-carousel-inner">
+                                <div class="custom-carousel-item active">
+                                    <img src="assets/gambar/bg1.jpg" alt="Gambar 1">
+                                </div>
+                                <div class="custom-carousel-item">
+                                    <img src="assets/gambar/bg1.jpg" alt="Gambar 2">
+                                </div>
+                                <div class="custom-carousel-item">
+                                    <img src="assets/gambar/bg1.jpg" alt="Gambar 3">
+                                </div>
+                            </div>
+                            <button class="custom-carousel-control prev">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="custom-carousel-control next">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Teks di sebelah kanan -->
+                    <div class="col-lg-6 ps-lg-5">
+                        <p class="text-secondary"><b>SDN 3 Banteran</b> adalah lembaga pendidikan dasar yang berkomitmen
+                            untuk mencetak generasi cerdas, berkarakter, dan berdaya saing tinggi. Terletak di
+                            lingkungan yang asri dan nyaman, SDN 3 Banteran memberikan suasana belajar yang kondusif
+                            untuk mengembangkan potensi setiap siswa, baik di bidang akademik maupun non-akademik.</p>
+                        <p class="text-secondary">Dengan tenaga pendidik profesional dan berpengalaman, kami tidak hanya
+                            fokus pada pencapaian prestasi akademik, tetapi juga menanamkan nilai-nilai luhur seperti
+                            disiplin, tanggung jawab, kejujuran, dan kepedulian sosial.</p>
+                        <a href="tentangkami.html" class="btn btn-primary rounded-5 px-3 mt-3">Visi & Misi &#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section 2 end -->
+
+        <!-- Section 3 Start -->
+        <section id="section-3">
+            <div class="container mt-">
+                <div class="text-center">
+                    <h1 class="poppins-bold mb-4">Mencetak Generasi <span class="text-primary">Cerdas, Berakhlak,</span>
+                        <br>dan Berprestasi
+                    </h1>
+                    <p class="poppins-regular text-secondary">SDN 3 Banteran berkomitmen menciptakan lingkungan belajar
+                        yang mendukung perkembangan intelektual,<br>
+                        karakter, dan bakat siswa. Dengan dukungan tenaga pendidik berkualitas dan fasilitas
+                        memadai,<br>kami siap mengantarkan generasi masa depan menuju cita-cita mereka.</p>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center gap-5 mt-5">
+                    <div class="card-section-two">
+                        <img src="assets/gambar/undraw_reading-a-book_4cap.svg" width="60" alt="">
+                        <p class="poppins-medium fs-5 mt-3">Kurikulum unggul</p>
+                        <span class="text-secondary">Penunjang belajar dengan kualitas terbaik</span>
+                    </div>
+                    <div class="card-section-two">
+                        <img src="assets/gambar/undraw_working-together_r43a.svg" width="100" alt="">
+                        <p class="poppins-medium fs-5 mt-3">Guru berpengalaman</p>
+                        <span class="text-secondary">Guru terbaik <br> dan berpengalaman</span>
+                    </div>
+                    <div class="card-section-two">
+                        <img src="assets/gambar/undraw_co-workers_8xeu.svg" width="74" alt="">
+                        <p class="poppins-medium fs-5 mt-3">Fasilitas lengkap</p>
+                        <span class="text-secondary">Berada di lingkungan yang nyaman dan asri</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 End -->
+
+        <!-- Section 4 Start -->
+        <section class="bg-primary mt-5" id="section-6">
+            <div class="container text-white py-5">
+                <div class="text-center mt-5">
+                    <h1 class="poppins-bold">Galeri 3 Banteran</h1>
+                    <p class="poppins-regular ">Moment Seru Di SD Negeri 3 Banteran</p>
+                </div>
+                <ul class="gallery p-0">
+                    <li class="wide"><img width="768" height="576" src="assets/gambar/kegiatanpram1.webp" alt=""
+                            title="" loading="pramuka" /></li>
+                    <li><img width="768" height="576" src="assets/gambar/apiunggun.webp" alt="" title=""
+                            loading="apiunggun" /></li>
+                    <li class="high"><img width="768" height="576" src="assets/gambar/bersih lingkungan2.webp" alt=""
+                            title="" loading="bersih lingkungan" /></li>
+                    <li class="wider"><img width="768" height="576" src="assets/gambar/upacara.webp" alt="" title=""
+                            loading="upacara" /></li>
+                    <li><img width="768" height="576" src="assets/gambar/FLS2N 2023.jpg" alt="" title=""
+                            loading="FLS2N 2023" /></li>
+                    <li><img width="768" height="432" src="assets/gambar/FLS2N.webp" alt="" title="" loading="FLS2N" />
+                    </li>
+                    <li class="wide"><img width="768" height="576" src="assets/gambar/lombahutri.webp" alt="" title=""
+                            loading="lomba" /></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Section 4 End -->
+
+
+        <!-- Section 5 Start -->
+        <section id="section-5">
+            <div class="container mt-5">
+                <div class="text-center">
+                    <h1 class="poppins-bold mt-5">Berita Terbaru Di <span class="text-primary">SD Negeri 3</span>
+                        <br>Banteran
+                    </h1>
+                    <p class="poppins-regular text-secondary">Berita Terbaru Tentang SD Negeri 3 Banteran.</p>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center gap-3 mt-5">
+                    <div class="card-article">
+                        <img src="assets/gambar/bg1.jpg" class="card-img-top" alt="" srcset="">
+                        <div class="desc-article">
+                            <div class="d-flex gap-3">
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-calendar"></i> 13
+                                    Februari 2023</span>
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-circle-user"></i>
+                                    Admin 3 Banteran</span>
+                            </div>
+                            <h5 class="poppins-bold">Pendaftaran SDN 3 Banteran Telah Dibuka</h5>
+                            <p style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                cupiditate nisi culpa!</p>
+                            <a href="" class="text-primary text-decoration-none poppins-medium">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="card-article">
+                        <img src="assets/gambar/bg1.jpg" class="card-img-top" alt="" srcset="">
+                        <div class="desc-article">
+                            <div class="d-flex gap-3">
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-calendar"></i> 13
+                                    Februari 2023</span>
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-circle-user"></i>
+                                    Admin 3 Banteran</span>
+                            </div>
+                            <h5 class="poppins-bold">Pendaftaran SDN 3 Banteran Telah Dibuka</h5>
+                            <p style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                cupiditate nisi culpa!</p>
+                            <a href="" class="text-primary text-decoration-none poppins-medium">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="card-article">
+                        <img src="assets/gambar/bg1.jpg" class="card-img-top" alt="" srcset="">
+                        <div class="desc-article">
+                            <div class="d-flex gap-3">
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-calendar"></i> 13
+                                    Februari 2023</span>
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-circle-user"></i>
+                                    Admin 3 Banteran</span>
+                            </div>
+                            <h5 class="poppins-bold">Pendaftaran SDN 3 Banteran Telah Dibuka</h5>
+                            <p style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                cupiditate nisi culpa!</p>
+                            <a href="" class="text-primary text-decoration-none poppins-medium">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="card-article">
+                        <img src="assets/gambar/bg1.jpg" class="card-img-top" alt="" srcset="">
+                        <div class="desc-article">
+                            <div class="d-flex gap-3">
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-calendar"></i> 13
+                                    Februari 2023</span>
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-circle-user"></i>
+                                    Admin 3 Banteran</span>
+                            </div>
+                            <h5 class="poppins-bold">Pendaftaran SDN 3 Banteran Telah Dibuka</h5>
+                            <p style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                cupiditate nisi culpa!</p>
+                            <a href="" class="text-primary text-decoration-none poppins-medium">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="card-article">
+                        <img src="assets/gambar/bg1.jpg" class="card-img-top" alt="" srcset="">
+                        <div class="desc-article">
+                            <div class="d-flex gap-3">
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-calendar"></i> 13
+                                    Februari 2023</span>
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-circle-user"></i>
+                                    Admin 3 Banteran</span>
+                            </div>
+                            <h5 class="poppins-bold">Pendaftaran SDN 3 Banteran Telah Dibuka</h5>
+                            <p style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                cupiditate nisi culpa!</p>
+                            <a href="" class="text-primary text-decoration-none poppins-medium">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="card-article">
+                        <img src="assets/gambar/bg1.jpg" class="card-img-top" alt="" srcset="">
+                        <div class="desc-article">
+                            <div class="d-flex gap-3">
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-calendar"></i> 13
+                                    Februari 2023</span>
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-circle-user"></i>
+                                    Admin 3 Banteran</span>
+                            </div>
+                            <h5 class="poppins-bold">Pendaftaran SDN 3 Banteran Telah Dibuka</h5>
+                            <p style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                cupiditate nisi culpa!</p>
+                            <a href="" class="text-primary text-decoration-none poppins-medium">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="card-article">
+                        <img src="assets/gambar/bg1.jpg" class="card-img-top" alt="" srcset="">
+                        <div class="desc-article">
+                            <div class="d-flex gap-3">
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-calendar"></i> 13
+                                    Februari 2023</span>
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-circle-user"></i>
+                                    Admin 3 Banteran</span>
+                            </div>
+                            <h5 class="poppins-bold">Pendaftaran SDN 3 Banteran Telah Dibuka</h5>
+                            <p style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                cupiditate nisi culpa!</p>
+                            <a href="" class="text-primary text-decoration-none poppins-medium">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="card-article">
+                        <img src="assets/gambar/bg1.jpg" class="card-img-top" alt="" srcset="">
+                        <div class="desc-article">
+                            <div class="d-flex gap-3">
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-calendar"></i> 13
+                                    Februari 2023</span>
+                                <span class="text-secondary poppins-regular"><i class="fa-solid fa-circle-user"></i>
+                                    Admin 3 Banteran</span>
+                            </div>
+                            <h5 class="poppins-bold">Pendaftaran SDN 3 Banteran Telah Dibuka</h5>
+                            <p style="font-size: 14px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                                cupiditate nisi culpa!</p>
+                            <a href="" class="text-primary text-decoration-none poppins-medium">Baca Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="berita.html"><button class="btn btn-primary mt-5 d-block mx-auto rounded-5 px-3">Semua
+                        Berita</button></a>
+            </div>
+        </section>
+        <!-- Section 5 End -->
+
+        <!-- Section 6 Start -->
+        <section id="maps-sdn-3-banteran">
+            <div class="container mt-4">
+                <h3 class="poppins-bold mb-4">Lokasi <span class="text-primary">SD Negeri 3</span> Banteran</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15371.476959990287!2d109.26575648150124!3d-7.369813667689491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655f4581fb1f99%3A0x730b57c91345b46d!2sSD%20Negeri%20Banteran%203!5e0!3m2!1sid!2sid!4v1746257721923!5m2!1sid!2sid"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <!-- Section 6 End -->
+    </main>
+
+    <!-- Footer Start -->
+    <footer class="bg-primary py-5 mt-5">
+        <div class="container">
+            <div class="d-flex flex-wrap text-white align-items-center">
+                <div class="col-12 col-md-6 text-start">
+                    <h2 class="poppins-bold">SDN 3 Banteran</h2>
+                    <p> RT 4/RW 7, Dusun Kradenan Wetan, Kelurahan Banteran,<br /> Kec. Sumbang, Kab. Banyumas, Prov.
+                        Jawa Tengah, 53183</p>
+                </div>
+                <div class="col-12 col-md-6 text-end">
+                    <span>
+                        <a class="text-white text-decoration-none fs-4" href=""><i
+                                class="fa-brands fa-facebook ms-2"></i></a>
+                        <a class="text-white text-decoration-none fs-4" target="_blank"
+                            href="https://www.instagram.com/sdn3_banteran?igsh=MXU0MGxoa24wb2pwZQ=="><i
+                                class="fa-brands fa-instagram ms-2"></i></a>
+                        <a class="text-white text-decoration-none fs-4" href=""><i
+                                class="fa-brands fa-youtube ms-2"></i></a>
+                    </span>
+                    <p>Dibuat oleh kelompok CIWIDEY <br> Menggunakan Bootstraps 5 dan Native</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <script src="assets/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
